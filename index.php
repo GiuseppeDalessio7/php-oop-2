@@ -2,9 +2,9 @@
 require __DIR__ . "/layout.php";
 require __DIR__ . "/Animals/Dog.php";
 require __DIR__ . "/Animals/Cat.php";
-require __DIR__ . "/Product/food.php";
-require __DIR__ . "/Product/toy.php";
-require __DIR__ . "/Product/kennel.php";
+require __DIR__ . "/Product/Food.php";
+require __DIR__ . "/Product/Toy.php";
+require __DIR__ . "/Product/Kennel.php";
 
 class article
 {
