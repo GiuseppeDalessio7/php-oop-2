@@ -19,7 +19,7 @@ class kennel extends article
 }
 
 $kennel = [
-    new kennel("Cuccy", 200, 12345, "Large", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-Foz7sQuPKOZRFcpPwCRme43snQboHuI6D9N3Lp-EYmTCpdVvY21ZSv0u7o8Q-N3xp3I&usqp=CAU"),
+    new kennel("Kennel for Cats", 50, 12345, "Small", "https://x.cloudsdata.net/4r/images/products/large/5bee9da2ba23d_1.png"),
 
     new kennel("Sky Kennel", 250, 1345, "Large", "https://images.demas.it/articoli/6801.jpg"),
 ];

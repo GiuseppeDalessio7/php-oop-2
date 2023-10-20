@@ -11,7 +11,7 @@ class food extends article
     }
 }
 $food = [
-    new food("Monge", 35, 15035, "Medium", "https://www.bauzaar.it/media/catalog/product/g/r/grafiche-magento-bauzaar_16__1_1.jpg?width=700&height=700&store=default&image-type=image"),
+    new food("Ultima Cat", 35, 15035, "Medium", "https://shop-cdn-m.mediazs.com/bilder/ultima/cat/tratto/urinario/crocchette/per/gatto/4/400/203708_pla_affinityspain_ultima_urinary_tract_es_10kg_hs_01_4.jpg"),
     new food("Purina-Adult", 50, 14235, "Medium", "https://www.bauzaar.it/media/catalog/product/g/r/grafiche_prodotti_magento_600x600_-_2022-10-18t091325.241_1.jpg?width=700&height=700&
 store=default&image-type=image")
 ];
