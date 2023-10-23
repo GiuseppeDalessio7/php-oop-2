@@ -75,15 +75,15 @@ corda/4/400/308998_pla_tiaki_spielzeug_seilball_fg_1018_4.jpg")
 <div class="container">
     <h1></h1>
     <div class="row">
-        <?php foreach ($kennel as $articolo) : ?>
+        <?php foreach ($food as $articolo) : ?>
             <div class="col">
-                <h1 class="text-center"> Our Kennel</h1>
+                <h1 class="text-center"> Our Food</h1>
                 <div class="card">
-                    <h2>Name: <?php echo $articolo->nameProduct ?> </h2>
-                    <h2>Price: € <?php echo $articolo->price ?> </h2>
-                    <h2>Code: <?php echo $articolo->code ?> </h2>
-                    <h2>Format: "<?php echo $articolo->format ?>" </h2>
-                    <img src="<?php echo $articolo->img ?>" alt="">
+                    <h2>Name: <?php echo $articolo->nameProduct ?> </ h2>
+                        <h2>Price: € <?php echo $articolo->price ?> </h2>
+                        <h2>Code: <?php echo $articolo->code ?> </h2>
+                        <h2>Format:"<?php echo $articolo->format ?>"</h2>
+                        <img src="<?php echo $articolo->img ?>" alt="">
                 </div>
             </div>
         <?php endforeach ?>

@@ -9,9 +9,4 @@ class food extends article
         $this->format = $format;
         $this->img = $img;
     }
-
-    public function getClassName()
-    {
-        return get_class();
-    }
 }

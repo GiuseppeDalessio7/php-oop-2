@@ -20,4 +20,28 @@ class article
     {
         return $this->nameProduct;
     }
+
+
+    class Example {
+        public function NumberCode($code, $maxCode) {
+            if ($code > $maxCode) {
+                throw new Exception("Hai inserito un numero troppo grande");
+            }
+            return $code / $maxCode;
+        }
+    }
+    
+    $example = new Example(); // Creare un'istanza della classe Example
+    
+    $code = 40000; // Ad esempio, il numero da controllare
+    $maxCode = 30000; // Valore massimo consentito
+    
+    try {
+        $result = $example->NumberCode($code, $maxCode); // Chiamare il metodo sull'oggetto $example
+        echo "Risultato: $result";
+    } catch (Exception $error) {
+        echo "Si è verificato un errore: " . $error->getMessage();
+    }
+
+
 }
