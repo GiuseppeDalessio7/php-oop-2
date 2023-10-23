@@ -5,10 +5,11 @@ if ($debug == true) {
     error_reporting(E_ALL); // imposta il livello di errori da mostrare E_ALL tutti
 }
 
-require __DIR__ . "/layout.php";
-require __DIR__ . "/Article.php";
+require __DIR__ . "/Layout/Layout.php";
+require __DIR__ . "/Product/Article.php";
 require __DIR__ . "/Animals/Dog.php";
 require __DIR__ . "/Animals/Cat.php";
 require __DIR__ . "/Product/Food.php";
 require __DIR__ . "/Product/Toy.php";
 require __DIR__ . "/Product/Kennel.php";
+require __DIR__ . "/Array_Product/Database.php";
