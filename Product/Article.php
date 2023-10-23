@@ -15,4 +15,9 @@ class article
         $this->format = $format;
         $this->img = $img;
     }
+
+    public function getNameProduct(): string
+    {
+        return $this->nameProduct;
+    }
 }
