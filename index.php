@@ -5,6 +5,8 @@ if ($debug == true) {
     error_reporting(E_ALL); // imposta il livello di errori da mostrare E_ALL tutti
 }
 
+define('ROOT', __DIR__); // DEFINISCO IL ROOT
+
 require __DIR__ . "/Layout/Layout.php";
 require __DIR__ . "/Product/Article.php";
 require __DIR__ . "/Animals/Dog.php";
