@@ -7,7 +7,7 @@ if ($debug == true) {
 
 define('ROOT', __DIR__); // DEFINISCO IL ROOT
 
-require __DIR__ . "/Layout/Layout.php";
+require __DIR__ . "/Layout/layout.php";
 require __DIR__ . "/Product/Article.php";
 require __DIR__ . "/Animals/Dog.php";
 require __DIR__ . "/Animals/Cat.php";
